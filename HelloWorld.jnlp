@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="https://trallan.github.io/java-test-jnlp/" href="HelloWorld.jnlp">
+  <information>
+    <title>HelloWorld App</title>
+    <vendor>Your Name</vendor>
+  </information>
+
+  <security>
+    <all-permissions/>
+  </security>
+
+  <resources>
+    <j2se version="1.8+" />
+    <jar href="HelloWorld.jar" main="true" />
+  </resources>
+
+  <application-desc main-class="HelloWorld" />
+</jnlp>
